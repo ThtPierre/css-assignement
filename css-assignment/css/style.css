@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+}
+
+body {
+	color: #FEFEE2;
+	background-image:url(../assets/images/dark-woodx.jpg);
+	font-family: "Roboto", Times, sans-serif;
+	margin: 0 0 0 0;
+}
+
+.container {
+	width: 950px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F08C35;
+
+ }
+
+.content{
+	line-height: 1.4em;
+	padding: 10px;
+}
+
+header, footer, nav{
+	background-color: #FAEB74;
+	color: #0387A3;
+}
+
+nav ul{
+	margin: 0;
+	padding: 5px;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 40px;
+	text-transform: uppercase;
+}
+nav a:link{
+	color: #FEFEE2;
+}
+nav a:visited{
+	color: #0387A3;
+}
+nav a:hover{
+	color: #B589D6;
+}
+nav a:active{
+	color: #000000;
+}
+
+a{
+	color:#0387A3 ;
+	text-decoration: none;
+}
+
+h1, h2, h3{
+	margin: 10px;
+	text-transform: uppercase;
+	color: #0387A3;
+}
+
+.img-centre{
+	display: block;
+	margin: 5px auto;
+	padding: 2px;
+}
+
+audio, video{
+	display: block;
+	margin: 10px auto;
+}
+
+table{
+	width: 800px;
+	margin-top: 10px;
+	margin-bottom:10px ;
+	border-collapse: collapse;
+}
+
+td, th{
+	border-width:thick ;
+	padding: 2px 5px;
+	background-color:#4C8AA3;
+} 
+tfoot td, th{
+	text-transform: uppercase;
+	background-color: #0387A3;
+	color:#FFFFFF;
+}
+
+dt{
+	font-weight: bold;
+}
+
+footer{
+	font-size: 80%;
+	text-align: center;
+	padding: 1px 0px;
+}
+
+iframe{
+	display: block;
+	margin: 10px auto;
+}
+
+fieldset{
+	width: 500px;
+	margin: 20px auto;
+	border-width: thick;
+	background-color: #FAEB74;
+	color: #0387A3;
+}
+
+legend{
+	font-style: italic;
+	background-color:#0387A3 ;
+	color: #FEFEE2;
+	margin: 0px 10px;
+	padding: 0 5px;
+	border-radius: 15px;
+}
+
+input[type=submit]{
+	border-width: 0;
+	border-radius: 10px;
+	padding: 5px;
+	background-color:#0387A3 ;
+	color:#FEFEE2 ;
+
+}
+
+input[type=submit]:hover{
+	background-color:#FEFEE2 ;
+	color: #0387A3;
+	cursor: pointer;
+}
